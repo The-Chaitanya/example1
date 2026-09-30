@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-box
+      position="-2 1 -4"
+      color="blue"
+      animation="property: position;
+                 to: 2 1 -4;
+                 dur: 2000;
+                 easing: easeInOutQuad">
+    </a-box>
+
+    <a-sky color="#ECECEC"></a-sky>
+    <a-camera position="0 1.6 0"></a-camera>
+  </a-scene>
+</body>
+</html>
